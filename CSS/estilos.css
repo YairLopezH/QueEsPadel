@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  font-family: "Bebas Neue";
+  min-height: 100%;
+  background-color: #13293D;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fheader {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-size: cover;
+  background-position: center;
+  font-size: 30px !important;
+}
+.fheader .navbar-nav .nav-link {
+  text-shadow: 0 0 5px black;
+  color: white;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.fheader .navbar-nav .nav-link:hover {
+  color: #F86624;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+main .jumbotron {
+  color: white;
+  text-shadow: 0 0 5px #000;
+  background-image: url(../assets/backgroud-main.webp) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.separadores {
+  background-color: #35FF69;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.separadores2 {
+  background-color: #EF27A6;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.separadores3 {
+  background-color: #53D8FB;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.cleft,
+.pleft {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.cleft {
+  background-image: url(../assets/tapiaSmash.webp) !important;
+}
+
+.pleft {
+  background-image: url(../assets/muchaspaletas.webp) !important;
+}
+
+.cright a,
+.pright {
+  text-decoration: none;
+  color: #EF27A6;
+}
+
+.cpright {
+  background-color: #53D8FB;
+  text-shadow: 0 0 5px black;
+}
+
+.paletas,
+.padelProfesional {
+  text-align: center;
+  color: white;
+  background-size: cover;
+  text-shadow: 0 0 5px black;
+}
+
+.padelProfesional {
+  background-color: #53D8FB;
+  text-shadow: 0 0 5px black;
+}
+
+.paletas {
+  background-color: #F86624;
+}
+
+.galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+.galeria .galeria-foto {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #EF27A6;
+  border-radius: 5px;
+}
+.galeria .galeria-foto:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(7) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(7):hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(8) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(8):hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(9) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(9):hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(10) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(10):hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(11) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(11):hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(12) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(12):hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.reglas {
+  color: #F86624;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+.reglas .listaReglas li {
+  list-style-type: none;
+}
+.reglas .rbleft,
+.reglas .rbright {
+  text-decoration: none;
+  color: green;
+}
+
+.chingoB-golpe,
+.martinV-golpe,
+.tapiaSq-golpe,
+.leoS-golpe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  width: 400px;
+  border: 2px solid #333;
+}
+
+.chingoB-golpe {
+  background-image: url("../assets/chingoB.webp");
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.chingoB-golpe:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.martinV-golpe {
+  background-image: url("../assets/martinV.webp");
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.martinV-golpe:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.tapiaSq-golpe {
+  background-image: url("../assets/tapiaSq.webp");
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.tapiaSq-golpe:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.leoS-golpe {
+  background-image: url("../assets/leoS.webp");
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.leoS-golpe:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.golpes {
+  color: #000;
+  background-color: #FCEFF9;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.bcontacto {
+  background-color: grey;
+}
+
+.formulariosc {
+  color: white;
+  background-color: blue;
+  background-size: cover;
+  text-align: center;
+}
+
+.formalign footer {
+  background-image: url(../assets/footerBackground.webp) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  text-align: center !important;
+}
+
+.footerc {
+  text-align: center !important;
+  background-image: url(../assets/footerBackground.webp) !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+footer a {
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 5px #000 !important;
+  letter-spacing: 15px;
+}/*# sourceMappingURL=estilos.css.map */

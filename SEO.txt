@@ -1,0 +1,15 @@
+Practica de mejora de SEO
+
+-Identifiqué y utilicé palabras clave relevantes para describir el contenido de mi sitio web en las keywords.
+
+
+-Utilice una descripción resumida y concisa diferente en cada pagina de mi sitio web con etiqueta meta.
+
+
+-inclui texto alternativo en todas las imagenes.
+
+
+-utilice etiquetas semanticas para mantener la estructura de mi pagina.
+
+
+-organize el contenido de manera logica y jerarquica para ayudar motores de busqueda.
